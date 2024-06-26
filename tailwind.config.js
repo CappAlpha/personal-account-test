@@ -9,10 +9,10 @@ module.exports = {
       colors() {
         return {
           btnHeader: {
-            white: "rgb(225, 227, 230)",
             blue: "rgb(0, 71, 187)"
           },
-          darkGray: 'rgb(54, 55, 56)'
+          darkGray: 'rgb(54, 55, 56)',
+          mediumGray: 'rgb(118, 120, 122)',
         };
       },
       screens: {

@@ -7,9 +7,6 @@ export const AccountPage: FC = () => {
     <>
       <Header />
       <Profile />
-      <div>
-        <div>123</div>
-      </div>
     </>
   );
 };

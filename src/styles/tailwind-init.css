@@ -3,17 +3,19 @@
 
 @import "tailwindcss/utilities";
 
-body{
+body {
   background-color: rgb(20, 20, 20);
+  color: rgb(225, 227, 230);
   max-width: 1494px;
   min-width: 320px;
   margin: 0 auto;
   @apply font-poppins;
 }
 
-@layer components{
-   /* TODO: вынести потом в отдельный компонент */
-  .btnHeader{
-    @apply py-[10px] px-[16px] rounded-[4px] text-btnHeader-white text-btnHeader  bg-btnHeader-blue whitespace-nowrap;
+@layer components {
+
+  /* TODO: вынести потом в отдельный компонент */
+  .btnHeader {
+    @apply py-[10px] px-[16px] rounded-[4px] text-btnHeader bg-btnHeader-blue whitespace-nowrap uppercase;
   }
 }
