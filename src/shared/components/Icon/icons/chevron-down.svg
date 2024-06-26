@@ -1,13 +1,5 @@
 <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs>
-		<clipPath id="clip1_1570">
-			<rect id="chevron-down" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
-		</clipPath>
-	</defs>
-	<g clip-path="url(#clip1_1570)">
+	<g>
 		<path id="Union" d="M6.70709 8.29285C6.31659 7.90234 5.68341 7.90234 5.29291 8.29285C4.90234 8.68347 4.90234 9.31653 5.29291 9.70715L11.2929 15.7072C11.6834 16.0977 12.3166 16.0977 12.7071 15.7072L18.7071 9.70715C19.0977 9.31653 19.0977 8.68347 18.7071 8.29285C18.3166 7.90234 17.6834 7.90234 17.2929 8.29285L12 13.5858L6.70709 8.29285Z" clip-rule="evenodd" fill="#E1E3E6" fill-opacity="1.000000" fill-rule="evenodd"/>
 	</g>
 </svg>

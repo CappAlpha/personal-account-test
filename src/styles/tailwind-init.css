@@ -3,7 +3,10 @@
 
 @import "tailwindcss/utilities";
 
+html,
 body {
+  width: 100%;
+  height: 100%;
   background-color: rgb(20, 20, 20);
   color: rgb(225, 227, 230);
   max-width: 1494px;
@@ -17,5 +20,14 @@ body {
   /* TODO: вынести в отдельный компонент */
   .btnHeader {
     @apply py-[10px] px-[16px] rounded-[4px] text-btnHeader bg-btnHeader-blue whitespace-nowrap uppercase;
+  }
+
+  .hideScroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hideScroll::-webkit-scrollbar {
+    display: none;
   }
 }
