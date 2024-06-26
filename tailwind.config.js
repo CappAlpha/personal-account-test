@@ -11,8 +11,12 @@ module.exports = {
           btnHeader: {
             blue: "rgb(0, 71, 187)"
           },
-          darkGray: 'rgb(54, 55, 56)',
+          whitePrimary: 'rgb(225, 227, 230)',
+          darkGray: 'rgb(35, 35, 36)',
+          borderGray: 'rgb(54, 55, 56)',
           mediumGray: 'rgb(118, 120, 122)',
+          lightGray: 'rgb(176, 177, 182)',
+          borderBlue: 'rgb(0, 71, 187)',
         };
       },
       screens: {

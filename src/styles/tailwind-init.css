@@ -14,7 +14,7 @@ body {
 
 @layer components {
 
-  /* TODO: вынести потом в отдельный компонент */
+  /* TODO: вынести в отдельный компонент */
   .btnHeader {
     @apply py-[10px] px-[16px] rounded-[4px] text-btnHeader bg-btnHeader-blue whitespace-nowrap uppercase;
   }

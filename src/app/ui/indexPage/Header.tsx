@@ -13,12 +13,12 @@ export const Header: FC = () => {
         <button className='btnHeader max-[768px]:hidden'>
           корзина
         </button>
-        {/* TODO: вынести потом в отдельный компонент */}
-        <div className='flex px-[16px] py-[6px] h-[36px] my-auto rounded-[18px] box-border border-[1px] border-darkGray'>
+        {/* TODO: вынести в отдельный компонент */}
+        <div className='flex px-[16px] py-[6px] h-[36px] my-auto rounded-[18px] box-border border-[1px] border-borderGray'>
           <Image src='/mockImg/avatar.png' alt='Avatar' width={24} height={24} />
           <ChevronDown />
         </div>
-        {/* TODO: вынести потом в отдельный компонент */}
+        {/* TODO: вынести в отдельный компонент */}
         <div className='flex justify-center my-auto w-[40px]'>
           <Burger />
         </div>
