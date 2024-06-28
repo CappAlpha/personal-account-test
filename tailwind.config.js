@@ -17,6 +17,9 @@ module.exports = {
           mediumGray: 'rgb(118, 120, 122)',
           lightGray: 'rgb(176, 177, 182)',
           borderBlue: 'rgb(0, 71, 187)',
+          lightGreen: 'rgb(37, 130, 79)',
+          lightYellow: 'rgb(255, 182, 73)',
+          lightRed: 'rgb(219, 69, 70)',
         };
       },
       screens: {

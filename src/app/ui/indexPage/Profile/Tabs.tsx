@@ -34,7 +34,7 @@ export const Tabs: FC<Props> = ({ tabs, onChange }) => {
       {tabs.map((item) => (
         <button
           key={item.slug}
-          className={cn('relative px-[16px] py-[10px] text-[14px] font-semibold leading-[20px] text-lightGray uppercase',activeTab?.slug === item.slug && 'text-whitePrimary before:absolute before:left-0 before:bottom-0 before:h-[2px] before:w-full before:bg-borderBlue')}
+          className={cn('relative px-[16px] py-[10px] text-[14px] font-semibold leading-[20px] text-lightGray uppercase', activeTab?.slug === item.slug && 'text-whitePrimary before:absolute before:left-0 before:bottom-0 before:h-[2px] before:w-full before:bg-borderBlue')}
           disabled={activeTab?.slug === item.slug}
           onClick={() => onClickTab(item)}
         >
