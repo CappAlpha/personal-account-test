@@ -2,7 +2,7 @@ import { Header } from '@/app/ui/indexPage/Header';
 import { Profile } from '@/app/ui/indexPage/Profile/Profile';
 import { Statistics } from '@/app/ui/indexPage/Statistics/Statistics';
 import { Vacations } from '@/app/ui/indexPage/Vacations/Vacations';
-import { ChevronDown } from '@/shared/components/Icon';
+// import { ChevronDown } from '@/shared/components/Icon';
 import { FC } from 'react';
 
 import { statCards } from './mocks/statCards';
